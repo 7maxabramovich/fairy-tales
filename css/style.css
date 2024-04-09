@@ -13,15 +13,17 @@ p, span, div, body, input, button, ul, li, h1, h2 {
 .body {
   max-width: 1120px;
   margin: auto;
-  background-color: lightsteelblue;
+  background-color: #f0ece2;
 }
 .header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   background: #f4f4f4;
-  background: darkgray;
+  background: #c7b198;
   position: relative;
+  border-radius: 5px;
+  padding: 5px 0;
 }
 .nav {
   width: 70%;
@@ -34,18 +36,20 @@ p, span, div, body, input, button, ul, li, h1, h2 {
 .menu li {
   cursor: pointer;
   list-style: none;
-  padding: 10px 30px 10px 20px;
+  padding: 4px 20px;
   text-align: left;
 }
 .menu > li {
   position: relative;
-  width: 33%;
+  width: 32%;
   text-align: center;
   min-width: 200px;
+  border-radius: 8px;
+  border: 1px solid #596e79;
 }
 .menu * {
   background: #f4f4f4;
-  background: gainsboro;
+  background: #dfd3c3;
 }
 .menu li:hover {
   box-shadow: 0px 0px 9px 6px #ddd;
@@ -117,8 +121,11 @@ p, span, div, body, input, button, ul, li, h1, h2 {
 .login {
   cursor: pointer;
   padding: 5px 10px;
-  margin: 6px;
+  /* margin: 6px; */
   width: 100%;
+  background: #dfd3c3;
+  border-radius: 8px;
+  border: 1px solid #596e79;
 }
 .banner {
   /* display: flex;
@@ -134,9 +141,11 @@ p, span, div, body, input, button, ul, li, h1, h2 {
 }
 .h1 {
   font-size: 20px;
+  color: #596e79;
 }
 .h2 {
   line-height: 1;
+  color: #596e79;
 }
 .banner-button {
   padding: 5px 10px;
@@ -156,14 +165,24 @@ p, span, div, body, input, button, ul, li, h1, h2 {
   /* overflow: hidden; */
   width: 30%;
   /* height: 70px; */
-  background: darkgray;
+  background: #c7b198;
   border-radius: 10px;
   padding: 10px 5px 10px 5px;
   margin: 5px;
+  min-width: 315px;
 }
 .tale-title {
   margin: 0px 0px 8px 0px;
 }
+
+.tale-img {
+  width: 160px;
+  height: 160px;
+  margin: 0 0 5px 0px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
 .tale-el {
   /* margin-top: -90px; */
 }
