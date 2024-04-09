@@ -58,7 +58,7 @@ p, span, div, body, input, button, ul, li, h1, h2 {
 .submenu {
   display: none;
   position: absolute;
-  top: 42px;
+  top: 30px;
   left: 0;
   width: 100%;
 }
