@@ -83,15 +83,6 @@ p, span, div, body, input, button, ul, li, h1, h2 {
   top: 0;
 }
 
-@media (max-width: 576px) {
-  .submenu-item {
-    position: initial
-  }
-  .submenu-item-wrap > li::after {
-    top: 10px;
-  }
-}
-
 .submenu-item-wrap li:hover .submenu-item {
   display: block;
 }
@@ -195,6 +186,15 @@ p, span, div, body, input, button, ul, li, h1, h2 {
     line-height: 1.2;
     font-size: 21px;
     margin: 15px 0;
+  }
+  .submenu-item {
+    position: initial
+  }
+  .submenu-item-wrap > li::after {
+    top: 10px;
+  }
+  .tale-img {
+    height: auto;
   }
 }
 
