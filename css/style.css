@@ -172,6 +172,7 @@ p, span, div, body, input, button, ul, li, h1, h2 {
   margin: 0 0 5px 0px;
   border-radius: 10px;
   object-fit: contain;
+  background: #f0ece2;
 }
 
 .tale-el {
@@ -195,6 +196,7 @@ p, span, div, body, input, button, ul, li, h1, h2 {
   }
   .tale-img {
     height: auto;
+    max-height: 160px;
   }
 }
 
